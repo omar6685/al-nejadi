@@ -34,6 +34,9 @@ navbar.container{
 .minWidthLogo{
   min-width: 550px;
 }
+.minWidthLogo2{
+  min-width: 88%;
+}
 .shadowLogo{
   box-shadow: 0 0 5px 0 #3c0707;
 }
