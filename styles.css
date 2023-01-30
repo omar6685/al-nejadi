@@ -1,14 +1,4 @@
-body{
-  margin: 0;  
-}
-navbar.container{
-    width: 100%;
-    max-width: 2560px;
-    height: 65px;
-    display: flex;
-    background-color: #a30303;
-    position: relative;
-}
+
 .bg-navbar-color1{
   background-color: #a30303;
 }
@@ -54,13 +44,6 @@ navbar.container{
   margin-left: 10%;
 }
 
-ul.navbar1{
-    display: flex;
-    list-style-type: none;
-    width: 500px;
-    text-align: center;
-    padding-left: 18%;
-}
 .w-500{
   width: 500px;
 }
@@ -76,13 +59,7 @@ ul.navbar1{
   color: rgb(0, 0, 0);
   border-radius: 10px;
 }
-.sign_in{
-  background: #2c0c0a; /* Old browsers */
-  border-radius: 10px;
-  color: #fff;
-  margin-left: 230%;
-  width: 100%;
-}
+
 .darkRed-bg{
   background: #2c0c0a; /* Old browsers */
 }
@@ -93,55 +70,21 @@ ul.navbar1{
   -moz-transition: all 0.4s;
   transition: all 0.4s;
 }
-ul.navbar2{
-    display: flex;
-    position: absolute;
-    justify-content: center;
-    justify-items: center;
-    bottom: 0;
-    top: 0;
-    list-style-type: none;
-    background-color: #b30101;
-    margin: 0px;
-    margin-left: 5.4%;
-    max-width: 112px;
-    padding-top: 15px;
-    padding-right: 15px;
-    padding-left: 0;
-    padding-right: 0;
-    box-shadow: 0 0 5px 0 #3c0707;
-    right: 0;
-    }
-    .maxWidth1{
-      max-width: 112px;
-
-    }
-    .liteRed-bg{
-      background-color: #b30101;
-    }
-    .icon-account{
-      margin-left: 0;
-      margin-right: 0;
-      right: 0;
-    }
+.maxWidth1{
+  max-width: 112px
+}
+.liteRed-bg{
+  background-color: #b30101;
+}
+.icon-account{
+  margin-left: 0;
+  margin-right: 0;
+  right: 0;
+}
   
   
 
-  .nav_bottom{
-    display: table-cell;
-    padding: 8px;
-    text-decoration: none;
-    color: #fff;
-  }
 
 
 
   /* #a70100 */
-
-  @media (max-width:  976px) {
-    .navbar1,
-    .sign_in,
-    .nav_bottom {
-		display: none;
-	}
-}
