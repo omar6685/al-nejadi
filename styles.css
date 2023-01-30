@@ -9,9 +9,13 @@ navbar.container{
     background-color: #a30303;
     position: relative;
 }
+.bg-navbar-color1{
+  background-color: #a30303;
+}
+
 .logo{
     background:#580e0d;
-    min-width: 416px;
+    min-width: 550px;
     height: 100%;
     box-shadow: 0 0 5px 0 #3c0707;
     -webkit-transform: perspective(300px) rotateX(30deg);
@@ -24,6 +28,25 @@ navbar.container{
     transform-origin: 0% 0%;
 
 }
+.logo-bg{
+  background:#580e0d;
+}
+.minWidthLogo{
+  min-width: 550px;
+}
+.shadowLogo{
+  box-shadow: 0 0 5px 0 #3c0707;
+}
+.trasferLogo{
+  -webkit-transform: perspective(300px) rotateX(30deg);
+  -o-transform: perspective(300px) rotateX(30deg);
+  -moz-transform: perspective(300px) rotateX(30deg);
+  transform: perspective(300px) rotateX(30deg);
+  -webkit-transform-origin: 0% 50%;
+  -moz-transform-origin: 0% 50%;
+  -o-transform-origin: 0% 50%;
+  transform-origin: 0% 0%;
+}
 .image-logo{
   margin-left: 10%;
 }
@@ -35,14 +58,10 @@ ul.navbar1{
     text-align: center;
     padding-left: 18%;
 }
-li a{
-  display: block;
-  padding: 8px;
-  text-decoration: none;
-  margin-left: 20px;
-  color: #fff;
-
+.w-500{
+  width: 500px;
 }
+
 .hover_bottom:hover{
   background: #a70100; /* Old browsers */
   background: -moz-linear-gradient(top, #a70100 0%, #a70100 100%); /* FF3.6-15 */
@@ -60,6 +79,9 @@ li a{
   color: #fff;
   margin-left: 230%;
   width: 100%;
+}
+.darkRed-bg{
+  background: #2c0c0a; /* Old browsers */
 }
 .hover_2:hover{
   background-color: #a70100;
@@ -86,7 +108,13 @@ ul.navbar2{
     padding-right: 0;
     box-shadow: 0 0 5px 0 #3c0707;
     right: 0;
+    }
+    .maxWidth1{
+      max-width: 112px;
 
+    }
+    .liteRed-bg{
+      background-color: #b30101;
     }
     .icon-account{
       margin-left: 0;
@@ -95,9 +123,22 @@ ul.navbar2{
     }
   
   
-  li {
-    float: left;
+
+  .nav_bottom{
+    display: table-cell;
+    padding: 8px;
+    text-decoration: none;
+    color: #fff;
   }
 
 
-  /* #a70100 
+
+  /* #a70100 */
+
+  @media (max-width:  976px) {
+    .navbar1,
+    .sign_in,
+    .nav_bottom {
+		display: none;
+	}
+}
