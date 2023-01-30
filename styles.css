@@ -70,6 +70,13 @@
   -moz-transition: all 0.4s;
   transition: all 0.4s;
 }
+.hover_3:hover{
+  background:#580e0d;
+  color: #fff;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
 .maxWidth1{
   max-width: 112px
 }
@@ -83,8 +90,8 @@
 }
   
 .color-bg{
-  background-color: rgb(0,1,10);
-  background: linear-gradient(159deg, rgba(0,1,10,1) 10%, rgba(38,42,37,1) 35%, rgba(75,73,60,1) 100%);
+  background-color: rgb(0,1,10); /* 242221*/
+  background: linear-gradient(159deg, #251f1b 57%, #242221 5%, #27221d 70%);
 }
 
 
