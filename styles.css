@@ -93,7 +93,17 @@
   background-color: rgb(0,1,10); /* 242221*/
   background: linear-gradient(159deg, #251f1b 57%, #242221 5%, #27221d 70%);
 }
+.card_bg_bej{
+  background: #756455;
+}
+.card_bg_darkBaj{
+  background: #2f2929;
+}
 
+.shadowCard{
+  box-shadow: 0px 50px 20px 0px rgba(0, 0, 0, 0.5); 
+
+}
 
 
 
