@@ -596,6 +596,14 @@ video {
   left: 0px;
 }
 
+.bottom-\[354px\] {
+  bottom: 354px;
+}
+
+.z-\[1\] {
+  z-index: 1;
+}
+
 .col-span-2 {
   grid-column: span 2 / span 2;
 }
@@ -684,6 +692,30 @@ video {
 
 .h-\[500px\] {
   height: 500px;
+}
+
+.h-\[100px\] {
+  height: 100px;
+}
+
+.h-\[250px\] {
+  height: 250px;
+}
+
+.h-\[220px\] {
+  height: 220px;
+}
+
+.h-\[2S0px\] {
+  height: 2S0px;
+}
+
+.h-\[240px\] {
+  height: 240px;
+}
+
+.h-\[230px\] {
+  height: 230px;
 }
 
 .w-full {
