@@ -541,6 +541,12 @@ video {
   }
 }
 
+@media (min-width: 1024) {
+  .container {
+    max-width: 1024;
+  }
+}
+
 @media (min-width: 1070px) {
   .container {
     max-width: 1070px;
@@ -823,8 +829,154 @@ video {
 }
 
 @media (min-width: 300px) {
+  .xs\:visible {
+    visibility: visible;
+  }
+
+  .xs\:invisible {
+    visibility: hidden;
+  }
+
+  .xs\:absolute {
+    position: absolute;
+  }
+
+  .xs\:relative {
+    position: relative;
+  }
+
+  .xs\:bottom-96 {
+    bottom: 24rem;
+  }
+
+  .xs\:left-96 {
+    left: 24rem;
+  }
+
+  .xs\:bottom-80 {
+    bottom: 20rem;
+  }
+
+  .xs\:bottom-72 {
+    bottom: 18rem;
+  }
+
+  .xs\:bottom-60 {
+    bottom: 15rem;
+  }
+
+  .xs\:bottom-52 {
+    bottom: 13rem;
+  }
+
+  .xs\:bottom-56 {
+    bottom: 14rem;
+  }
+
+  .xs\:bottom-48 {
+    bottom: 12rem;
+  }
+
+  .xs\:bottom-\[100\%\] {
+    bottom: 100%;
+  }
+
+  .xs\:bottom-\[150\%\] {
+    bottom: 150%;
+  }
+
+  .xs\:bottom-\[80\%\] {
+    bottom: 80%;
+  }
+
+  .xs\:bottom-\[70\%\] {
+    bottom: 70%;
+  }
+
+  .xs\:bottom-\[60\%\] {
+    bottom: 60%;
+  }
+
+  .xs\:bottom-\[50\%\] {
+    bottom: 50%;
+  }
+
+  .xs\:bottom-\[30\%\] {
+    bottom: 30%;
+  }
+
+  .xs\:bottom-\[75\%\] {
+    bottom: 75%;
+  }
+
+  .xs\:right-2 {
+    right: 0.5rem;
+  }
+
+  .xs\:right-14 {
+    right: 3.5rem;
+  }
+
+  .xs\:bottom-\[110\%\] {
+    bottom: 110%;
+  }
+
+  .xs\:right-7 {
+    right: 1.75rem;
+  }
+
+  .xs\:left-7 {
+    left: 1.75rem;
+  }
+
+  .xs\:left-20 {
+    left: 5rem;
+  }
+
+  .xs\:right-5 {
+    right: 1.25rem;
+  }
+
+  .xs\:right-52 {
+    right: 13rem;
+  }
+
+  .xs\:right-72 {
+    right: 18rem;
+  }
+
+  .xs\:bottom-\[104\%\] {
+    bottom: 104%;
+  }
+
+  .xs\:-left-5 {
+    left: -1.25rem;
+  }
+
+  .xs\:-left-16 {
+    left: -4rem;
+  }
+
+  .xs\:my-\[40\%\] {
+    margin-top: 40%;
+    margin-bottom: 40%;
+  }
+
+  .xs\:mt-\[40\%\] {
+    margin-top: 40%;
+  }
+
+  .xs\:mb-96 {
+    margin-bottom: 24rem;
+  }
+
   .xs\:hidden {
     display: none;
+  }
+
+  .xs\:px-\[40\%\] {
+    padding-left: 40%;
+    padding-right: 40%;
   }
 }
 
@@ -841,8 +993,22 @@ video {
 }
 
 @media (min-width: 976px) {
+  .lg\:visible {
+    visibility: visible;
+  }
+
+  .lg\:static {
+    position: static;
+  }
+
   .lg\:table-cell {
     display: table-cell;
+  }
+}
+
+@media (min-width: 1024) {
+  .crd\:visible {
+    visibility: visible;
   }
 }
 
