@@ -739,6 +739,22 @@ video {
   height: 2.5rem;
 }
 
+.h-\[102\%\] {
+  height: 102%;
+}
+
+.h-\[101\%\] {
+  height: 101%;
+}
+
+.h-\[101\.8\%\] {
+  height: 101.8%;
+}
+
+.h-\[101\.5\%\] {
+  height: 101.5%;
+}
+
 .w-full {
   width: 100%;
 }
@@ -923,6 +939,11 @@ video {
   line-height: 1.25rem;
 }
 
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -949,6 +970,11 @@ video {
 .text-red-600 {
   --tw-text-opacity: 1;
   color: rgb(220 38 38 / var(--tw-text-opacity));
+}
+
+.text-red-100 {
+  --tw-text-opacity: 1;
+  color: rgb(254 226 226 / var(--tw-text-opacity));
 }
 
 .no-underline {
