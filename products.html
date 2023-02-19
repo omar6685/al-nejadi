@@ -32,74 +32,48 @@
         </navbar>
     </nav>
     <main class=" h-full color-bg">
-        
-        <div class="small-container single-product">
-            <div class="row">
-            
-            <!--we have created 2 columns, one for the image and other for the text
-            related to an image-->
-
-                <div class="col-2">
-                     <img src="images/gallery-1.jpg" width="100%" id="product-img"><!--id in bigger image so we can replace with its variants, so when we click on its different angle, it will show in large picture using JS-->
-            
-                     <div class="small-img-row">
-                         
-                        <div class="small-img-col">
-                             <img src="images/gallery-1.jpg" width="100%" class="small-img"><!--using class in all 4 small pictures so we can use them in JS and when we click on it, it show in larger picture-->
-                        </div>
-
-                        <div class="small-img-col">
-                            <img src="images/gallery-2.jpg" width="100%" class="small-img">
-                        </div>
-                        
-                        <div class="small-img-col">
-                            <img src="images/gallery-3.jpg" width="100%" class="small-img">
-                        </div>
-                        
-                        <div class="small-img-col">
-                            <img src="images/gallery-4.jpg" width="100%" class="small-img">
-                        </div>
-
-                     </div>
-
+        <div class="container mx-auto my-12">
+            <div class="grid grid-cols-2 gap-4">
+              <div class="flex flex-col items-center justify-center">
+                <img src="images/engine-4.png" class="w-[680px] cursor-pointer" id="product-img">
+                <div class="flex my-4">
+                  <div class="w-1/4 px-1">
+                    <img src="images/engine-2.png" class="w-[163px] cursor-pointer small-img">
+                  </div>
+                  <div class="w-1/4 px-1">
+                    <img src="images/engin.png" class="w-[163px] cursor-pointer small-img">
+                  </div>
+                  <div class="w-1/4 px-1">
+                    <img src="images/engine-3.png" class="w-[163px] cursor-pointer small-img">
+                  </div>
+                  <div class="w-1/4 px-1">
+                    <img src="images/engine-4.png" class="w-[163px] cursor-pointer small-img">
+                  </div>
                 </div>
-
-            <!--column related to the text of single product-->
-                <div class="col-2">
-                    <p>Home/ T-Shirt</p>
-                    <h1>Red Printed T-Shirt by HRX</h1>
-                    <h4>$50.00</h4>
-
-                    <!--sizes selection-->
-                    <select>
-                        <option>Select Size</option>
-                        <option>XXL</option>
-                        <option>XL</option>
-                        <option>Large</option>
-                        <option>Medium</option>
-                        <option>>Small</option>
-                    </select>
-                    
-                    <!--no of products-->
-                    <input type="number" value="1">
-                    <a href="" class="btn">Add To Cart</a><!--add to cart button-->
-                    <h3>Product Details <i class="fa fa-indent" aria-hidden="true"></i></h3>
-                    <br>
-                    <p>Give Your summer wardrobe a style upgrade with the HTX Men's 
-                    Active T-shirt. Team it with a pair of shorts for your morning
-                    Workout or a denims for an evening out with the guys.
-                    </p>
+              </div>
+              <div class="flex flex-col justify-center">
+                <p class="text-rose-300 text-sm">Home/ T-Shirt</p>
+                <h1 class="text-3xl font-bold text-red-100">Red Printed T-Shirt by HRX</h1>
+                <h4 class="text-lg my-4 text-red-100">$50.00</h4>
+                <select class="py-2 px-4 border rounded">
+                  <option>Select Size</option>
+                  <option>XXL</option>
+                  <option>XL</option>
+                  <option>Large</option>
+                  <option>Medium</option>
+                  <option>Small</option>
+                </select>
+                <div class="flex items-center my-4">
+                  <input type="number" value="1" class="w-16 h-10 border rounded text-center">
+                  <a href="#" class="ml-4 px-6 py-2 logo-bg text-white uppercase font-bold tracking-wider">Add To Cart</a>
                 </div>
+                <h3 class="text-xl font-bold mb-4 text-red-100">Product Details <i class="text-red-700 fa fa-indent" aria-hidden="true"></i></h3>
+                <p class="text-sm leading-6 text-rose-300">
+                  Give Your summer wardrobe a style upgrade with the HTX Men's Active T-shirt. Team it with a pair of shorts for your morning Workout or a denims for an evening out with the guys.
+                </p>
+              </div>
             </div>
-        </div>
-
-    <!----------title-------------->
-    <div class="small container">
-        <div class="row row-2">
-            <h2>Related Products</h2>
-            <p>View More</p>
-        </div>
-    </div>
+          </div>
 
     </main>
     <footer>
