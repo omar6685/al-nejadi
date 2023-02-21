@@ -32,114 +32,120 @@
         </navbar>
     </nav>
     <main class=" h-full color-bg">
-        <div class="container mx-auto py-8">
-            <table class="w-full">
-              <thead class="bg-gray-100">
-                <tr>
-                  <th class="px-4 py-2">Product</th>
-                  <th class="px-4 py-2">Quantity</th>
-                  <th class="px-4 py-2">Subtotal</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr class="border-b">
-                  <td class="px-4 py-4">
-                    <div class="flex items-center">
-                      <img src="images/buy-1.jpg" class="h-16 w-16 object-cover mr-4">
-                      <div>
-                        <p class="font-bold">Red Printed Tshirt</p>
-                        <p class="text-sm">$50.00</p>
-                        <a href="#" class="text-gray-700">Remove</a>
-                      </div>
-                    </div>
-                  </td>
-                  <td class="px-4 py-4">
-                    <input type="number" value="1" class="w-16 p-2 border rounded">
-                  </td>
-                  <td class="px-4 py-4">$50.00</td>
-                </tr>
-          
-                <tr class="border-b">
-                  <td class="px-4 py-4">
-                    <div class="flex items-center">
-                      <img src="images/buy-2.jpg" class="h-16 w-16 object-cover mr-4">
-                      <div>
-                        <p class="font-bold">Blue Printed Tshirt</p>
-                        <p class="text-sm">$60.00</p>
-                        <a href="#" class="text-gray-700">Remove</a>
-                      </div>
-                    </div>
-                  </td>
-                  <td class="px-4 py-4">
-                    <input type="number" value="1" class="w-16 p-2 border rounded">
-                  </td>
-                  <td class="px-4 py-4">$60.00</td>
-                </tr>
-          
-                <tr class="border-b">
-                  <td class="px-4 py-4">
-                    <div class="flex items-center">
-                      <img src="images/buy-3.jpg" class="h-16 w-16 object-cover mr-4">
-                      <div>
-                        <p class="font-bold">Green Printed Tshirt</p>
-                        <p class="text-sm">$75.00</p>
-                        <a href="#" class="text-gray-700">Remove</a>
-                      </div>
-                    </div>
-                  </td>
-                  <td class="px-4 py-4">
-                    <input type="number" value="1" class="w-16 p-2 border rounded">
-                  </td>
-                  <td class="px-4 py-4">$75.00</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-            <div class=" py-4 px-6 mt-6">
-                <table class="table-fixed">
-                    <tr>
-                        <td class="w-2/3 text-right pr-4">Subtotal</td>
-                        <td class="w-1/3 text-right">$200.00</td>
-                    </tr>
-                    <tr>
-                        <td class="w-2/3 text-right pr-4">Tax</td>
-                        <td class="w-1/3 text-right">$30.00</td>
-                    </tr>
-                    <tr>
-                        <td class="w-2/3 text-right pr-4">Total</td>
-                        <td class="w-1/3 text-right font-bold text-xl">$230.00</td>
-                    </tr>
-                </table>
-            </div>
-            
+     <div class="container mx-auto my-8">
+      <table class="w-full text-left rounded-lg">
+        <thead class="bg-red-900 uppercase text-xs text-rose-100">
+          <tr>
+            <th class="py-3 px-4 font-medium">Product</th>
+            <th class="py-3 px-4 font-medium">Quantity</th>
+            <th class="py-3 px-4 font-medium">Subtotal</th>
+          </tr>
+        </thead>
+        <tbody class=" divide-y divide-gray-200">
+          <tr>
+            <td class="py-4 flex items-center">
+              <img class="w-16 h-16 rounded-full" src="images/engine-4.png" alt="Red Printed Tshirt">
+              <div class="ml-4">
+                <p class="text-red-900 font-medium">Red Printed Tshirt</p>
+                <p class="text-rose-100 text-xs">$50.00</p>
+                <a href="#" class="text-red-500 text-xs mt-2">Remove</a>
+              </div>
+            </td>
+            <td class="py-4"><input type="number" value="1" class="w-16 h-8 rounded-full text-center text-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-300 focus:border-transparent"></td>
+            <td class="py-4 text-rose-100">$50.00</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="flex justify-end mt-8 mr-3">
+        <table class="text-end">
+          <tbody class="text-rose-100">
+            <tr class="border-t-4 border-red-900">
+              <th class="py-4 px-4 font-medium">Subtotal</th>
+              <td class="py-4 px-4 text-right">$200.00</td>
+            </tr>
+            <tr class="">
+              <th class="py-4 px-4 font-medium">Tax</th>
+              <td class="py-4 px-4 text-right">$30.00</td>
+            </tr>
+            <tr class=" ">
+              <th class="py-4 px-4 font-medium">Total</th>
+              <td class="py-4 px-4 text-right">$230.00</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="flex justify-end my-4 mr-3">
+        <a href="#" class="ml-4 px-6 py-2 logo-bg text-white uppercase font-bold tracking-wider">Buy Now</a>
+      </div>
+    </div>
+      
     </main>
     <footer>
-            <div class=" text-rose-300 relative ">
-                <div class="flex items-center flex-wrap justify-between grid ">
-                    <div class="sm:col-span-6 md:col-span-3 mb-9 text-center ">
-                        <h3 class="mt-0 mb-3 font-bold text-base text-rose-100 ">Services</h3>
-                        <ul class="p-0 list-none leading-normal text-sm mb-0" >
-                            <li><a href="#">Web design</a></li>
-                            <li><a href="#">Development</a></li>
-                            <li><a href="#">Hosting</a></li>
-                        </ul>
-                    </div>
-                    <div class="sm:col-span-6 md:col-span-3 mb-9 text-center ">
-                        <h3 class="mt-0 mb-3 font-bold text-base text-rose-100">About</h3>
-                        <ul class="p-0 list-none leading-normal text-sm mb-0" >
-                            <li><a href="#">Company</a></li>
-                            <li><a href="#">Team</a></li>
-                            <li><a href="#">Careers</a></li>
-                        </ul>
-                    </div>
-                    <div class="sm:col-span-6 mb-9 text-center  text">
-                        <h3 class="mt-0 mb-3 font-bold text-base text-rose-100">Company Name</h3>
-                        <p class="mb-0">Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
-                    </div>
-                    <div class="col mb-9 text-center  "><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
-                </div>
-                <p class="copyright text-center pt-8 text-sm mb-0">Company Name © 2018</p>
+      <div class="bg-gray-800 py-6">
+        <div class="container mx-auto">
+          <div class="flex flex-wrap">
+            <div class="w-full md:w-1/4 text-center md:text-left">
+              <div class="mt-6">
+                <img src="images/al-najdi-logo-2.png" class="h-12 w-fit mr-3">
+              </div>
             </div>
+            <div class="w-full md:w-1/4 text-center md:text-left">
+              <h5 class="uppercase mb-6 font-bold text-white">Useful Links</h5>
+              <ul class="list-reset mb-6">
+                <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                  <a href="#" class="no-underline hover:underline text-gray-300 hover:text-white">Coupons</a>
+                </li>
+                <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                  <a href="#" class="no-underline hover:underline text-gray-300 hover:text-white">Blog Post</a>
+                </li>
+                <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                  <a href="#" class="no-underline hover:underline text-gray-300 hover:text-white">Return Policy</a>
+                </li>
+                <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                  <a href="#" class="no-underline hover:underline text-gray-300 hover:text-white">Join Affiliate</a>
+                </li>
+              </ul>
+            </div>
+            <div class="w-full md:w-1/4 text-center md:text-left">
+              <h5 class="uppercase mb-6 font-bold text-white">Follow Us</h5>
+              <ul class="list-reset mb-6">
+                <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                  <a href="#" class="no-underline hover:underline text-gray-300 hover:text-white">Facebook</a>
+                </li>
+                <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                  <a href="#" class="no-underline hover:underline text-gray-300 hover:text-white">Twitter</a>
+                </li>
+                <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                  <a href="#" class="no-underline hover:underline text-gray-300 hover:text-white">Instagram</a>
+                </li>
+                <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                  <a href="#" class="no-underline hover:underline text-gray-300 hover:text-white">Youtube</a>
+                </li>
+              </ul>
+            </div>
+            <div class="w-full md:w-1/4 text-center md:text-left">
+              <h5 class="uppercase mb-6 font-bold text-white">contact Us</h5>
+              <ul class="list-reset mb-6">
+                <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                  <a href="#" class="no-underline hover:underline text-gray-300 hover:text-white">Facebook</a>
+                </li>
+                <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                  <a href="#" class="no-underline hover:underline text-gray-300 hover:text-white">Twitter</a>
+                </li>
+                <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                  <a href="#" class="no-underline hover:underline text-gray-300 hover:text-white">Instagram</a>
+                </li>
+                <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                  <a href="#" class="no-underline hover:underline text-gray-300 hover:text-white">Youtube</a>
+                </li>
+              </ul>
+            </div>
+            
+            <hr class="border-t border-gray-700 my-6">
+            <p class="text-center text-gray-400 text-sm">
+              <a href="#" class="hover:underline">Copyright 2020</a>
+              - Made with ❤️ by Muhammad Muneeb Waseem
+            </p>
     </footer>
 </body>
 </html>
